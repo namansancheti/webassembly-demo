@@ -1,10 +1,11 @@
 import './App.css';
-import { WasmUsingHook } from './WasmUsingHook';
+import { WasmUsingHoc } from './WasmUsingHoc';
+// import { WasmUsingHook } from './WasmUsingHook';
 
 function App() {
   return (
     <div className="App">
-     <WasmUsingHook />
+     <WasmUsingHoc />
     </div>
   );
 }
